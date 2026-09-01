@@ -1,0 +1,22 @@
+{
+  "name": "minecraft-bedrock-autonomous-ai-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram-controlled autonomous Minecraft Bedrock 26.30 AI agent.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.58.3",
+    "better-sqlite3": "^12.4.1",
+    "dotenv": "^17.2.2",
+    "pino": "^10.1.0",
+    "telegraf": "^4.16.3"
+  }
+}
